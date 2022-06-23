@@ -39,8 +39,7 @@ namespace Song
                 methods[menuResult]();
                 Console.WriteLine("Press Any Key to Return");
                 Console.ReadKey();
-            } while (menuResult != items.Length - 1);
-            
+            } while (menuResult != items.Length - 1);            
         }
         static void Exit()
         {
